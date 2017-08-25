@@ -1,0 +1,7 @@
+applications:
+- name: debo
+  command: node server.js
+  path: .
+  memory: 1024M
+  env:
+    NODE_ENV: production

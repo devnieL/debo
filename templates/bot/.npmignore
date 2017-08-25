@@ -1,0 +1,12 @@
+npm-debug
+.settings
+.jazzignore
+.project
+READEME_dev.md
+build.xml
+Gruntfile.js
+node_modules
+public/libs
+.DS_Store
+*.zip
+config/env.js

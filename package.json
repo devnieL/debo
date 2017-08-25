@@ -1,0 +1,22 @@
+{
+  "name": "debo",
+  "version": "0.0.1-alpha",
+  "description": "a bot boilerplate",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./bin/debo-cli.js",
+  "bin": {
+    "debo": "./bin/debo-cli.js"
+  },
+  "preferGlobal": true,
+  "author": "devniel",
+  "license": "",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fs-extra": "^3.0.1",
+    "mkdirp": "^0.5.1",
+    "readline": "^1.3.0",
+    "sorted-object": "^2.0.1"
+  }
+}

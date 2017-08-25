@@ -1,0 +1,7 @@
+applications:
+- name: debo-dev
+  command: node server.js
+  path: .
+  memory: 512M
+  env:
+    NODE_ENV: development
