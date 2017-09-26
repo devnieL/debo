@@ -1,19 +1,19 @@
-# DEBO
+# **debo** 🤖
 
 A boilerplate to create multichannel bots powered by IBM Watson, channels currently available: Facebook Messenger, Twitter and Web.
 
 Usage:
 
-1. First install the module (not yet available on NPM) so clone it and run the following command in the folder:
+1. First install the module :
 
 ````
-npm install -g .
+npm install -g debo
 ````
 
 2. The **debo** command is globally available, now you can create your bot projects:
 
 ````
-> debo [BOT_NAME]
+$ debo [BOT_NAME]
 ````
 
 A folder will be created with the debo boilerplate, by default the name is ***my-debo***.
@@ -23,3 +23,5 @@ A folder will be created with the debo boilerplate, by default the name is ***my
 4. The boilerplate also includes the base conversation dialog workspace that should be uploaded on an **IBM Watson Conversation** instance.
 
 5. All the credentials need to be included in the proper **.env** file.
+
+made with ♥︎  by **devniel**.
