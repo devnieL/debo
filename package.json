@@ -1,6 +1,6 @@
 {
   "name": "debo",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-alpha.1",
   "description": "a bot boilerplate",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,6 +8,10 @@
   "main": "./bin/debo-cli.js",
   "bin": {
     "debo": "./bin/debo-cli.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/devnieL/debo.git" 
   },
   "preferGlobal": true,
   "author": "devniel",
